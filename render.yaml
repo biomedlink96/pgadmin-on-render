@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: pgadmin
+    env: docker
+    plan: free
+    autoDeploy: false
+    envVars:
+      - key: PGADMIN_DEFAULT_EMAIL
+        value: admin@example.com
+      - key: PGADMIN_DEFAULT_PASSWORD
+        value: securepassword
