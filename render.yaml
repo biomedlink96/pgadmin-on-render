@@ -6,6 +6,6 @@ services:
     autoDeploy: false
     envVars:
       - key: PGADMIN_DEFAULT_EMAIL
-        value: biomedlink96@gmail.com
+        value: biomedlink@gmail.com
       - key: PGADMIN_DEFAULT_PASSWORD
-        value: NzamSim6969?
+        value: yourSecurePassword123
